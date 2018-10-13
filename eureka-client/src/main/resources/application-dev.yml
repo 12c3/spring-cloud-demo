@@ -1,0 +1,15 @@
+server:
+  port: 10001
+
+spring:
+  application:
+    name: client1
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+      #将实例信息变更同步到eureka server 的初始延时时间
+    initial-instance-info-replication-interval-seconds: 10
+    #将实例信息变更同步到eureka server间隔时间
+    instance-info-replication-interval-seconds: 10
