@@ -1,10 +1,21 @@
 # Output Directory
+bin/
 target/
+tmp/
+
+
+# Java
+*.class
+
+# Java Package Files
+*.jar
+*.war
+*.ear
 
 # Eclipse
+.settings/
 .classpath
 .project
-.settings
 
 # IntelliJ IDEA
 .idea/
@@ -19,3 +30,10 @@ target/
 # logs
 *.log
 logs/
+
+# Zip Files
+*.rar
+*.zip
+*.7z
+*.tar
+*.gz
